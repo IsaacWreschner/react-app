@@ -1,0 +1,84 @@
+body {
+	height:1000px;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+         font-family: myFirstFont;
+         src: url('Aristotelica-SmallCaps-DemiBold-trial.ttf');
+    }
+
+.text-center{
+	text-align: center;
+}
+
+.font-lg{
+            font-family: myFirstFont;
+            font-size: 25px;
+        }
+        .font-sm{
+            font-family: myFirstFont;
+            font-size: 14px;
+        }
+        .font-md{
+            font-family: myFirstFont;
+            font-size: 18px;
+        }
+    
+        .flex-center{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content:center;
+            align-items:center;
+        }
+        .flex-end{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content:flex-end;
+            align-items:center;
+        }
+        .flex-start{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content:flex-start;
+            align-items:center;
+        }
+
+        .align-start{
+            align-items: flex-start;
+        }
+        .text-center{
+        	text-align: center;
+        }
+        
+      .icon-sm{
+          font-size: 15px;
+      }
+      .icon-sm:hover{
+          font-size: 18px;
+      }
+      .icon-md{
+          font-size: 25px;
+      }
+      .icon-md:hover{
+          font-size: 27px;
+      }
+      .icon-lg{
+          font-size: 35px;
+      }
+      .icon-lg:hover{
+          font-size: 37px;
+      }
+      .float-leftt{
+      	float:left;
+      }
