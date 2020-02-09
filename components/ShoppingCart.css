@@ -1,0 +1,35 @@
+.shopping-cart{
+width:400px;
+}
+
+/*.embedded{
+	width:200px;
+	height:100px;
+}*/
+.cart-body{
+	height:200px;
+	overflow-y: scroll;
+}
+
+.cart-body::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.cart-body::-webkit-scrollbar-track {
+	
+  box-shadow: inset 0 0 5px white; 
+  border-radius: 10px;
+  
+}
+ 
+/* Handle */
+.cart-body::-webkit-scrollbar-thumb {
+  background: green; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.cart-body::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}

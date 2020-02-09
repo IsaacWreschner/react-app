@@ -1,0 +1,37 @@
+.count{
+	font-size:20px;
+}
+.product{
+	margin:5px;
+	padding:5px;
+	border:solid 2px gray;
+	border-radius:2px;
+
+}
+
+/*responsivity*/
+@media screen and (max-width: 700px){.product{
+	width:90%;
+	}}
+
+
+.product:hover{
+	border-width: 3px;
+	margin: 4px;
+}
+
+.embedded{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+
+}
+
+.counter{
+	font-size:20px;
+}
+
+
+.addRemove{
+	width:100px;
+}
